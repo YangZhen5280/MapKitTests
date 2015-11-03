@@ -13,6 +13,7 @@
 		D9C6F0481BE8D0F2001CAFA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C6F0461BE8D0F2001CAFA7 /* Main.storyboard */; };
 		D9C6F04A1BE8D0F2001CAFA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C6F0491BE8D0F2001CAFA7 /* Assets.xcassets */; };
 		D9C6F04D1BE8D0F2001CAFA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C6F04B1BE8D0F2001CAFA7 /* LaunchScreen.storyboard */; };
+		D9C6F0561BE8D3BA001CAFA7 /* YYAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C6F0551BE8D3BA001CAFA7 /* YYAnnotation.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D9C6F0491BE8D0F2001CAFA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9C6F04C1BE8D0F2001CAFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9C6F04E1BE8D0F2001CAFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C6F0541BE8D3BA001CAFA7 /* YYAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnnotation.h; sourceTree = "<group>"; };
+		D9C6F0551BE8D3BA001CAFA7 /* YYAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				D9C6F0431BE8D0F1001CAFA7 /* ViewController.h */,
 				D9C6F0441BE8D0F1001CAFA7 /* ViewController.m */,
 				D9C6F0461BE8D0F2001CAFA7 /* Main.storyboard */,
+				D9C6F0541BE8D3BA001CAFA7 /* YYAnnotation.h */,
+				D9C6F0551BE8D3BA001CAFA7 /* YYAnnotation.m */,
 				D9C6F0491BE8D0F2001CAFA7 /* Assets.xcassets */,
 				D9C6F04B1BE8D0F2001CAFA7 /* LaunchScreen.storyboard */,
 				D9C6F04E1BE8D0F2001CAFA7 /* Info.plist */,
@@ -152,6 +157,7 @@
 			files = (
 				D9C6F0451BE8D0F1001CAFA7 /* ViewController.m in Sources */,
 				D9C6F0421BE8D0F1001CAFA7 /* AppDelegate.m in Sources */,
+				D9C6F0561BE8D3BA001CAFA7 /* YYAnnotation.m in Sources */,
 				D9C6F03F1BE8D0F1001CAFA7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +305,7 @@
 				D9C6F0531BE8D0F2001CAFA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
